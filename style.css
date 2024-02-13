@@ -1,0 +1,114 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: url(tennisFon.jpg);
+  background-size: cover;
+}
+body .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  width: 400px;
+}
+body .container .block {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px #fff solid;
+  border-radius: 20px;
+}
+body .container .block img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+body .container .block h3 {
+  font-family: "Monserrat", sans-serif;
+  margin-bottom: 0px;
+}
+body .container .block h1 {
+  margin-top: 5px;
+}
+body .container .block select {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  width: 65px;
+  height: 35px;
+  padding: 10px;
+  border: 1px rgb(32, 128, 0) solid;
+  border-radius: 5px;
+  font-weight: 500;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+body .container .block select option {
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  font-weight: 500;
+}
+body .container .block select:hover {
+  box-shadow: 0px 0px 2px 6px rgba(227, 227, 227, 0.5);
+}
+body .container .block .btn1 {
+  margin-right: 15px;
+  background-color: greenyellow;
+  padding: 5px 15px;
+  border: 3px greenyellow solid;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+body .container .block .btn1:hover {
+  box-shadow: 0px 0px 2px 6px rgba(2, 255, 15, 0.5);
+}
+body .container .block .btn1:active {
+  color: rgb(3, 179, 3);
+}
+body .container .block .btn2 {
+  background-color: rgb(47, 255, 189);
+  padding: 5px 15px;
+  border: 3px rgb(47, 255, 189) solid;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+body .container .block .btn2:hover {
+  box-shadow: 0px 0px 2px 6px rgba(26, 211, 165, 0.598);
+}
+body .container .block .btn2:active {
+  color: rgb(3, 179, 114);
+}
+body .container .block .reset {
+  background-color: rgba(255, 36, 36, 0.906);
+  padding: 7px 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  width: 214px;
+}
+body .container .block .reset:hover {
+  box-shadow: 0px 0px 2px 6px rgba(211, 26, 26, 0.598);
+}
+body .container .block .reset:active {
+  color: rgba(114, 6, 6, 0.683);
+}/*# sourceMappingURL=style.css.map */
